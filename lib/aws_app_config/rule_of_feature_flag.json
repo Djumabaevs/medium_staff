@@ -1,0 +1,22 @@
+{
+    "my_feature": {
+        "default": "True",
+        "rules": {
+            "customer name is customer1 and username startswith admin": {
+                "when_match": "True",
+                "conditions": [
+                    {
+                        "action": "EQUALS",
+                        "key": "customer_name",
+                        "value": "customer1"
+                    },
+                    {
+                        "action": "STARTSWITH",
+                        "key": "username",
+                        "value": "admin"
+                    }
+                ]
+            }
+        }
+    }
+}s
