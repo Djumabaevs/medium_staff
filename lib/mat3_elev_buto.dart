@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'KindaCode.com',
+        title: 'KindaCodeMain.com',
         theme: ThemeData(
           useMaterial3: true, // enable Material 3
           primarySwatch: Colors.blue,
