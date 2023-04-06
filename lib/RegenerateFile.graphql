@@ -1,9 +1,0 @@
-mutation RegenerateFile($id: ID!) {
-  regenerateFile(id: $id) {
-    id
-    profileId
-    createdAt
-    title
-    link
-  }
-}
